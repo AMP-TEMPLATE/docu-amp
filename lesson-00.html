@@ -1,0 +1,99 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Hello, AMPs</title>
+    <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+   
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+ 
+ <style custom-amp>
+ 
+ /*-------General Definition----------*/
+ 
+  html {
+	-moz-osx-font-smoothing: grayscale; /* This line makes text smoother on Mozilla devices. The "-moz-" prefix is for commands that only affect Mozilla browsers */
+	-webkit-font-smoothing: antialiased /* This line makes text smoother on Chrome and Safari devices. The "-webkit-" prefix is for commands that only affect Chrome and Safari browsers */
+}
+
+body {
+	font-family: Georgia, serif;
+	font-size: 100%;
+	line-height: 1.5;
+	color: #121212;
+	background: rgba(51, 51, 51, 0.05)
+}
+/*
+The "body" and ".main-body" classes can be put into one class by combining them with a "," like so:
+body, .main-body {
+	font-family: Georgia, serif;
+	font-size: 100%;
+	line-height: 1.5;
+	color: #121212;
+	background: #ffffff;
+	max-width: 37.5rem;
+	margin: 0 auto;
+	overflow-x: hidden
+
+}
+Note that there can be only one line for "background", in this case from .main-body
+*/
+.main-body {
+	background: #ffffff;
+	max-width: 37.5rem;
+	margin: 0 auto;
+	overflow-x: hidden
+}
+
+html,
+body {
+	text-rendering: optimizeSpeed
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0
+}
+
+blockquote {
+	margin: 0
+}
+
+p {
+	font-size: 1rem;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 0.5rem
+}
+
+h3 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: normal;
+	margin-bottom: 0.4375rem
+}
+
+/*--------------------------------*/
+
+ .header {
+    background-color: #e9eff1; /* This specific line makes the header have a blue-ish background colour */
+    border-bottom: 0.0625rem solid #abc2c9;
+    color: #121212; /* This line makes the header, "Dummy Text", a slightly brighter shade of black */
+    position: relative;
+    max-width: 37.5rem;
+    margin: 0 auto;
+}
+     /*
+
+     You can download https://cdn.ampproject.org/v0.js" from here: https://files.fm/u/mrh525aq"
+      */
+ </style>
+
+ </head>
+  <body>
+  <div class="header">
+    <h1>Dummy Text</h1>
+	</div>
+  </body>
+</html>
